@@ -1,7 +1,7 @@
 .red-button {
   background-color: var(--soft-red);
   color: var(--off-white);
-  display: inline;
+  display: block;
   font-size: var(--fs-button);
   font-weight: var(--fw-button);
   letter-spacing: var(--ls-button);
