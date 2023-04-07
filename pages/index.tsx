@@ -5,8 +5,9 @@ const heroData = {
   title: "The Bright Future of Web 3.0?",
   headerDescription:
     "We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?",
-  heroImg: '/static/images/image-web-3-desktop.jpg',
-  buttonLink: "/",
+  heroImgDesktop: '/static/images/image-web-3-desktop.jpg',
+  heroImgMobile: '/static/images/image-web-3-mobile.jpg',
+  buttonLink: "#",
 };
 
 export default function Home() {
@@ -23,8 +24,9 @@ export default function Home() {
       </Head>
       <Hero
         title={heroData.title}
-        headerDescription={heroData.headerDescription}
-        heroImg={heroData.heroImg}
+        heroDescription={heroData.headerDescription}
+        heroImgDesktop={heroData.heroImgDesktop}
+        heroImgMobile={heroData.heroImgMobile}
         buttonLink={heroData.buttonLink}
       />
     </>
