@@ -1,5 +1,26 @@
+
+.nav {
+  color: var(--dark-grayish-blue);
+  font-size: var(--fs-paragraph);
+  line-height: var(--lh-paragraph);
+}
 .nav ul {
   list-style-type: none;
   display: flex;
   gap: 4rem;
+}
+
+
+.icon-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .icon-menu {
+    display: block;
+    cursor: pointer;
+  }
 }

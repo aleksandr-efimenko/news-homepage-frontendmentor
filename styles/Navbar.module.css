@@ -1,0 +1,7 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 8.9rem 5.1rem;
+}
+

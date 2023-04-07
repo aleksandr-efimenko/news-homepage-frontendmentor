@@ -1,6 +1,7 @@
 :root {
   font-size: 10px;
-  --max-width: 1100px;
+  --max-width: 110rem;
+  --side-margins: 2rem;
 
   /* Colors */
   --soft-orange: hsl(35, 77%, 62%);
@@ -65,4 +66,19 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--soft-red);
+}
+
+.container {
+  width: min(var(--max-width), 100% - (2 * var(--side-margins)));
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    --side-margins: 1rem;
+  }
 }
