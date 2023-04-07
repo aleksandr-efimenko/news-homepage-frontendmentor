@@ -1,7 +1,7 @@
 .hero-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 30rem 18rem;
+  grid-template-rows: 30rem auto;
   grid-template-areas:
     "hero-image hero-image"
     "hero-title hero-text";

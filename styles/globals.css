@@ -94,6 +94,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --fs-header-xl: var(--fs-header-xl-mobile);
+    --lh-header-xl: var(--lh-header-xl-mobile);
+    --fs-header-l: var(--fs-header-l-mobile);
+    --lh-header-l: var(--lh-header-l-mobile);
+  }
   .container {
     --side-margins: 1rem;
   }
