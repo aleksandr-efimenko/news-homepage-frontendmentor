@@ -11,10 +11,7 @@
   --dark-grayish-blue: hsl(236, 13%, 42%);
   --very-dark-blue: hsl(240, 100%, 5%);
 
-  /*  Paragraph */
-  --fs-paragraph: 1.5rem;
-  --lh-paragraph: 2.6rem;
-  --fw-paragraph: 400;
+
 
   /* Headers */
   --fs-header-xl-desktop: 5.6rem;
@@ -44,6 +41,17 @@
   --fs-header-xs: 1.8rem;
   --lh-header-xs: 2.4rem;
   --fw-header-xs: 800;
+    
+  /*  Paragraph */
+  --fs-paragraph: 1.5rem;
+  --lh-paragraph: 2.6rem;
+  --fw-paragraph: 400;
+
+  /*  Button */
+  --fs-button: 1.4rem;
+  --lh-button: 1.4rem;
+  --ls-button: 0.44rem;
+  --fw-button: 700;
 
 }
 
@@ -61,6 +69,12 @@ body {
 
 body {
   background-color: var(--off-white);
+}
+p {
+  font-size: var(--fs-paragraph);
+  line-height: var(--lh-paragraph);
+  font-weight: var(--fw-paragraph);
+  color: var(--dark-grayish-blue);
 }
 
 a {

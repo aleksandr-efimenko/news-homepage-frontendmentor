@@ -1,0 +1,10 @@
+.hero-container {
+  display: grid;
+}
+
+.hero-image{
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}

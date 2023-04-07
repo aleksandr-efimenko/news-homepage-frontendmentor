@@ -1,8 +1,8 @@
 import React from "react";
-import navStyles from "../styles/Nav.module.css";
+import navStyles from '../../styles/Layout/Nav.module.css'
 import Link from "next/link";
 import Image from "next/image";
-import iconMenu from "../public/assets/images/icon-menu.svg";
+import iconMenu from "../../public/static/images/icon-menu.svg";
 
 const navItems = ["Home", "New", "Popular", "Trending", "Categories"];
 
