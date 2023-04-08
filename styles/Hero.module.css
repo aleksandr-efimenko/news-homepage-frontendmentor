@@ -15,6 +15,10 @@
   height: 100%;
   grid-area: hero-image;
 }
+.hero-title-container {
+  display: flex;
+  align-items: flex-end;
+}
 
 .hero-title {
   grid-area: hero-title;

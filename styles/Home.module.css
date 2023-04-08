@@ -1,7 +1,7 @@
 .main-page-grid-container {
   display: grid;
   grid-template-columns: 73fr 35fr;
-  grid-template-rows: auto auto;
+  /* grid-template-rows: 511px auto; */
   gap: 7rem 3rem;
   grid-template-areas: "hero-container column-news"
                         "row-news row-news";

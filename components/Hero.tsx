@@ -19,17 +19,18 @@ export default function Hero({
           priority
           src={heroImgDesktop}
           style={{
-            objectFit: 'cover',
+            objectFit: "cover",
           }}
           alt="Hero image, abstraction with colored blocks"
         />
       </div>
-
-        <h1 className={heroStyles['hero-title']}>{title}</h1>
-        <div className={heroStyles['hero-description-container']}>
-          <p className={heroStyles['hero-text']}>{heroDescription}</p>
-          <RedButton buttonLink={buttonLink} />
-        </div>
+      <div className={heroStyles["hero-title-container"]}>
+        <h1 className={heroStyles["hero-title"]}>{title}</h1>
+      </div>
+      <div className={heroStyles["hero-description-container"]}>
+        <p className={heroStyles["hero-text"]}>{heroDescription}</p>
+        <RedButton buttonLink={buttonLink} />
+      </div>
     </div>
   );
 }

@@ -22,10 +22,15 @@
 .news-column-container a:hover {
   color: var(--soft-orange);
 }
+
 .news-column-container p {
   font-size: var(--fs-paragraph);
   line-height: var(--lh-paragraph);
   font-weight: var(--fw-paragraph);
   color: var(--grayish-blue);
-  margin-block-end: 2.4rem;
+}
+
+hr.news-separator {
+  border: 1px solid var(--dark-grayish-blue);
+  margin-block: 2.9rem 3.1rem;
 }

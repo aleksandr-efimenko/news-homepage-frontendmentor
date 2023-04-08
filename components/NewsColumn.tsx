@@ -11,14 +11,14 @@ export default function NewsColumn({
   return (
     <div className={ncStyles["news-column-container"]}>
       <h2>New</h2>
-      {newsColumnData.map((item) => (
+      {newsColumnData.map((item, index) => (
         <div key={item.id}>
           <h3>
-            {" "}
             <Link href={item.link}>{item.title}</Link>
           </h3>
-
           <p>{item.description}</p>
+         {index !== newsColumnData.length -1 &&
+          <hr className={ncStyles['news-separator'] }/> }
         </div>
       ))}
     </div>
