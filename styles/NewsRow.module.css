@@ -16,8 +16,8 @@
 
 .news-element-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 2.4rem;
 }
 
@@ -27,4 +27,12 @@
   line-height: var(--lh-header-m);
   color: var(--grayish-blue);
   margin-block-end: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .news-row-container {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+
+  }
 }
