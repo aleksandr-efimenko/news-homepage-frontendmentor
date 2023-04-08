@@ -23,4 +23,7 @@
     display: block;
     cursor: pointer;
   }
+  .icon-menu:hover {
+    filter: invert(72%) sepia(42%) saturate(6722%) hue-rotate(327deg) brightness(97%) contrast(95%);
+  }
 }

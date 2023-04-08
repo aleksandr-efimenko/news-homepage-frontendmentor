@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <header className={[navBarStyles["logo-container"], "container"].join(" ")}>
-      <Link href="/">
+      <Link href="/" >
         <Image src={logo} alt="Logo" width={64} height={39} />
       </Link>
       <Nav />

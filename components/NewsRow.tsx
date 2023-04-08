@@ -4,7 +4,6 @@ import React from "react";
 import nrStyles from "@/styles/NewsRow.module.css"
 
 export default function NewsRow({ newsRowData }: { newsRowData: NewsRowData[] }) {
-  console.log(newsRowData);
   return (
     <div className={nrStyles["news-row-container"]}>
       {newsRowData.map((item) => (

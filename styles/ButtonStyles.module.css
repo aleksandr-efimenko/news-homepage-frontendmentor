@@ -5,7 +5,6 @@
   font-size: var(--fs-button);
   font-weight: var(--fw-button);
   letter-spacing: var(--ls-button);
-  line-height: var(--lh-button);
   min-height: 4.8rem;
   padding: 1.5rem 3.1rem;
   text-transform: uppercase;

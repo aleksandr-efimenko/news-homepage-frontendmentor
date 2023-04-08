@@ -85,7 +85,7 @@ export default function Home() {
           buttonLink={heroData.buttonLink}
         />
         <NewsColumn newsColumnData={newsColumnData} />
-        <NewsRow  newsRowData={newsRowData} />
+        <NewsRow newsRowData={newsRowData} />
       </div>
     </>
   );
