@@ -1,0 +1,5 @@
+.main-page-grid-container {
+  display: grid;
+  grid-template-columns: 73fr 35fr;
+  grid-template-rows: auto auto;
+}

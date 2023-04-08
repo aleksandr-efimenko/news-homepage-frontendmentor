@@ -17,7 +17,7 @@ export default function Hero({
   buttonLink: string;
 }) {
   return (
-    <div className={[heroStyles["hero-container"], "container"].join(" ")}>
+    <div className={heroStyles["hero-container"]}>
       <div className={heroStyles["hero-image"]}>
         <Image
           fill
