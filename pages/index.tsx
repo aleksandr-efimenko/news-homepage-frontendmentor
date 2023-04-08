@@ -43,21 +43,21 @@ const newsRowData: NewsRowData[] = [
     id: "01",
     title: "Reviving Retro PCs",
     description: "What happens when old PCs are given modern upgrades?",
-    imgSrc: "@/static/images/image-reviving-retro-pcs.jpg",
+    imgSrc: "/static/images/image-retro-pcs.jpg",
     link: "#",
   },
   {
     id: "02",
     title: " Top 10 Laptops of 2022",
     description: "Our best picks for various needs and budgets.",
-    imgSrc: "@/static/images/image-top-10-laptops.jpg",
+    imgSrc: "/static/images/image-top-laptops.jpg",
     link: "#",
   },
   {
     id: "03",
     title: "The Growth of Gaming",
     description: "How the pandemic has sparked fresh opportunities.",
-    imgSrc: "@/static/images/image-growth-of-gaming.jpg",
+    imgSrc: "/static/images/image-gaming-growth.jpg",
     link: "#",
   },
 ];
@@ -84,8 +84,8 @@ export default function Home() {
           heroImgMobile={heroData.heroImgMobile}
           buttonLink={heroData.buttonLink}
         />
-        <NewsColumn {...newsColumnData} />
-        <NewsRow {...newsRowData} />
+        <NewsColumn newsColumnData={newsColumnData} />
+        <NewsRow  newsRowData={newsRowData} />
       </div>
     </>
   );

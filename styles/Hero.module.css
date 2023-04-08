@@ -6,6 +6,7 @@
     "hero-image hero-image"
     "hero-title hero-text";
   gap: 2.8rem 3rem;
+  grid-area: hero-container;
 }
 
 .hero-image {

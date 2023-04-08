@@ -3,6 +3,8 @@
   grid-template-columns: 73fr 35fr;
   grid-template-rows: auto auto;
   gap: 7rem 3rem;
+  grid-template-areas: "hero-container column-news"
+                        "row-news row-news";
 }
 
 @media (max-width: 768px) {
