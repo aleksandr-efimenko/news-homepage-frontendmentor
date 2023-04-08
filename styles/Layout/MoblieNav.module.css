@@ -6,8 +6,8 @@
   height: 100%;
   background-color: var(--very-dark-blue);
   z-index: 1;
-  opacity: 0.5;
-  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+
 }
 
 .mobile-nav-close {
@@ -15,6 +15,7 @@
   top: 2.7rem;
   right: 2rem;
   cursor: pointer;
+
 }
 
 .mobile-nav-close:hover,
@@ -33,8 +34,17 @@
   padding-block-start: 14.4rem;
   padding-inline-start: 2.4rem;
   z-index: 3;
-  transition: 0.3s ease-in-out;
+  animation: slide-in 0.3s ease-in-out forwards;
+  transform: translateX(100%);
+}
 
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
 .mobile-nav-container ul {

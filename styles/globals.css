@@ -1,7 +1,7 @@
 :root {
   font-size: 10px;
   --max-width: 110rem;
-  --side-margins: 2rem;
+  --side-margins: 3.2rem;
 
   /* Colors */
   --soft-orange: hsl(35, 77%, 62%);
@@ -101,6 +101,6 @@ a:hover {
     --lh-header-l: var(--lh-header-l-mobile);
   }
   .container {
-    --side-margins: 1rem;
+    --side-margins: 1.6rem;
   }
 }

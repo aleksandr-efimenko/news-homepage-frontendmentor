@@ -6,7 +6,10 @@ import iconClose from "@/public/static/images/icon-menu-close.svg";
 
 export default function MobileNav({ navItems, handleOpenCloseMobileNav }: { navItems: string[], handleOpenCloseMobileNav: () => void }) {
   return (
-    <div className={mobileNavStyles["mobile-nav-overlay"]}>
+    <>
+    <div className={mobileNavStyles["moblie-nav-overlay"]}>
+    </div>
+
       <div className={mobileNavStyles["mobile-nav-container"]}>
         <div className={mobileNavStyles["mobile-nav-close"]}>
           <Link href="/" onClick={handleOpenCloseMobileNav}>
@@ -26,6 +29,6 @@ export default function MobileNav({ navItems, handleOpenCloseMobileNav }: { navI
           ))}
         </ul>
       </div>
-    </div>
+      </>
   );
 }
