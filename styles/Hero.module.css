@@ -35,10 +35,13 @@
 }
 
 @media (max-width: 768px) {
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hero-image"
+      "hero-title"
+      "hero-text";
+    gap: 2.8rem 3rem;
   }
 }

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import heroStyles from "../styles/Hero.module.css";
+import heroStyles from "@/styles/Hero.module.css";
 import RedButton from "./RedButton";
+import { HeroData } from "@/utils/interface";
 
 export default function Hero({
   title,
@@ -9,13 +10,7 @@ export default function Hero({
   heroImgMobile,
   heroDescription: heroDescription,
   buttonLink,
-}: {
-  title: string;
-  heroDescription: string;
-  heroImgDesktop: string;
-  heroImgMobile: string;
-  buttonLink: string;
-}) {
+}: HeroData) {
   return (
     <div className={heroStyles["hero-container"]}>
       <div className={heroStyles["hero-image"]}>
